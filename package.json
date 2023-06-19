@@ -1,7 +1,8 @@
 {
   "name": "catan_randomizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
+  "homepage": "catan_randomizer/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "i": "npx update-browserslist-db@latest && npm i",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
